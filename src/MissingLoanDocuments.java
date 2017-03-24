@@ -30,7 +30,7 @@ public class MissingLoanDocuments {
 		catch(Exception e){
 			e.printStackTrace();
 		}
-		ImplementListOfHashMaps ilhm = new ImplementListOfHashMaps();
+		MissingLoanDocuments ilhm = new MissingLoanDocuments();
 		ilhm.findMissingDocTypes(appDocsMap, docTypes);
 		/*for (String s : appDocsMap.keySet()){
 			System.out.println(s+": "+appDocsMap.get(s));
